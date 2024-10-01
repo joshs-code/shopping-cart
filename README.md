@@ -112,3 +112,11 @@ The above piece of code handles the get_cart call and queries the DB for an item
 - add testing
 - Implement better error handling
 - Implement incomplete endpoints
+
+shopping-cart/ # Existing project files
+├── tests/                  # New folder for tests
+│   └── cypress/
+│       ├── addItemsToCart.spec.js
+│       ├── updateCartQuantity.spec.js    # Separate file for this test
+│       └── removeFromCart.spec.js        # Optional: For other test cases
+└── README.md
